@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Solitaire Game"
   ],
-  "SelectedNode": "\\main.cpp",
+  "SelectedNode": "\\Solitaire Game\\solitaire.cpp",
   "PreviewInSolutionExplorer": false
 }
