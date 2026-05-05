@@ -1,4 +1,4 @@
-# Peg Solitaire — CS 449 Sprint 3
+# Peg Solitaire — CS 449 
 
 ## Project Structure
 
