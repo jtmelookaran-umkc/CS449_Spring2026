@@ -3,13 +3,14 @@
 ## Project Structure
 
 ```
+File structure on system; was unable to upload it the same on github and my git was having problems throughout so I could not incrementally update everything. 
 solitaire/
 ├── src/
 │   ├── Board.h / Board.cpp          # Abstract board base class
 │   ├── BoardTypes.h / BoardTypes.cpp# EnglishBoard, HexagonBoard, DiamondBoard
 │   ├── Game.h / Game.cpp            # ManualGame, AutoplayGame
 │   ├── GameRecorder.h               # Save/load/replay game files
-│   └── ConsoleUI.h                  # Console display (separated from logic)
+│   └── ConsoleUI.h                  # Console display 
 ├── gui/
 │   ├── BoardWidget.h / .cpp         # Custom Qt widget — draws board, handles clicks
 │   └── MainWindow.h / .cpp          # Main Qt window with all controls
@@ -18,7 +19,7 @@ solitaire/
 ├── main.cpp                         # Console app entry point
 ├── main_gui.cpp                     # Qt GUI entry point
 ├── Solitaire.pro                    # Qt project file
-├── Makefile                         # Console build
+
 └── records/                         # Saved game files go here
 ```
 
